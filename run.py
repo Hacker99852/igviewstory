@@ -76,7 +76,6 @@ if cookie:
                                 config.igfunc.time.sleep(1)
                     except:
                         print("[!] ["+config.igfunc.gen_date()[1]+"] - Story not found!")
-                    print("[+] "+str(len(reels))+" story from "+target+" collected")
                     print("[+] "+str(len(reels_suc))+" story from "+target+" marked as seen")
                     for i in config.igfunc.progressbar(range(30), "[!] ["+config.igfunc.gen_date()[1]+"] - Sleep for 30 seconds: ", 30):
                         config.igfunc.time.sleep(1)
